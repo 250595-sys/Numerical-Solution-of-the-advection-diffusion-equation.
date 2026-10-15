@@ -202,3 +202,4 @@ $$\vert{}G(\theta)\vert{}^2 = \frac{1}{1 + \sigma^2 \sin^2\theta} \le 1 \quad \f
 | **Lax-Wendroff** | $(\mathcal{O}(\Delta t^2), \mathcal{O}(\Delta x^2))$ | Explicit | $\sigma \le 1$ | Low | High (Trailing oscillations) |
 | **Leapfrog** | $(\mathcal{O}(\Delta t^2), \mathcal{O}(\Delta x^2))$ | Explicit | $\sigma \le 1$ | None ($\vert{}G\vert{}=1$) | High (Trailing oscillations + Decoupling) |
 | **BTCS** | $(\mathcal{O}(\Delta t), \mathcal{O}(\Delta x^2))$ | Implicit | Unconditionally Stable | Moderate to High | High at large $\sigma$ |
+<img width="1000" height="600" alt="Figure_1 2" src="https://github.com/user-attachments/assets/7ec35293-4e0e-4aea-bc67-09b90068f3b1" />
